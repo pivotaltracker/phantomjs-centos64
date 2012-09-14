@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('lib/phantomjs-centos64/version', __FILE__)
+require File.expand_path(File.dirname(__FILE__)+'/lib/phantomjs-centos64/version')
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Maxwell Salzberg"]
